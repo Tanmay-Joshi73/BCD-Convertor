@@ -1,0 +1,81 @@
+@media (max-width:650px) {
+    body{
+        /* background-color: red; */
+        
+    }
+    #Inner-Text{
+        margin-left:20px;
+        font-size: 21px;
+    }
+    .From-Text{
+        font-size: 15px;
+        margin-left:2px'
+
+    }
+     .Decimal-Text{
+            font-size: 15px;
+            width:10px;
+            padding-left: 2px;
+    }
+      .conversion2 .To-Text{
+        font-size: 15px;
+        margin-left:40px;
+    }
+    .conversion2 .Binary-Text{
+          margin-left:40px;  
+          font-size: 15px;
+          width: 110px;            
+    }
+    .converssion .Decimal-Text{
+        margin-left:12px;  
+        font-size: 15px;
+        width: 110px;   
+    }
+    .Input-Text{
+        font-size: 15px;
+    }
+    Input{
+        width:185px;
+        /* border-radius: 5px; */
+
+    }
+    .Reset-btn{
+        width:60px;
+        font-size:12px;
+        margin-left: 15px ;
+    }
+    #output-text{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+     #Output-Show{
+        font-size: 22px;
+        margin-left: 24px;
+        margin-top: 20px;
+    } 
+    .Number-box{
+        margin-left:74%;
+        font-size: 15px;
+        padding-left: 24px;
+        padding-top: 5px;
+        width: 30px;
+    }
+    .Output{
+        width:310px;
+        height: 70px;
+        margin-left:20px
+    }
+    .Image-logo{
+        margin-left:-33.78%;
+        margin-top: 5px;
+        width: 35px;
+    }
+    .main-container{
+        margin-left: 4px;
+        width:370px;
+        height:460px
+        /* font-size: xx-smaller; */
+        
+    }
+    
+}

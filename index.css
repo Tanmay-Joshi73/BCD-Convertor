@@ -1,0 +1,181 @@
+.Text h1{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size:larger; */
+    font-size: x-large;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.main-container{
+    width: 500px;
+    position: relative;
+    height: 600px;
+    border:2px solid black;
+    margin-left:10px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 30px;
+    background:#f0eedc;;
+    box-shadow: 2px 2px 10px black;
+}
+.converssion ,.conversion2{
+    font-family: 'Roboto', sans-serif;
+    font-size:9px;
+    display:inline-block;
+}
+.converssion .From-Text{
+    margin-left: 15px;
+}
+.converssion .Decimal-Text{
+    margin-left:15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 170px;
+    padding-left: 20px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.conversion2 .To-Text{
+margin-left: 52px;
+}
+.conversion2 .Binary-Text{
+    margin-left: 52px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 170px;
+    padding-left: 20px;
+    height: 25px;
+    padding-top: 5px;
+}
+.texting{
+    display:inline-block;
+}
+.Input-Text{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-left: 15px;
+}
+input{
+    height: 31px;
+    width: 321px;
+    margin-left: 15px;
+    padding-right: 84.5px;
+    /* border-radius: 4px; */
+    border-right:1px solid gray ;
+}
+.Number-box{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    border: 2px solid gray;
+    width: 40px;
+    border-left: 1px solid gray;
+    /* border-radius: 4px; */
+    padding-left: 15px;
+    height: 28.50px;
+    margin-left:84.70%;
+    margin-top: -36.36px;
+    padding-top: 5px;
+    background:  #e9ecef;
+}
+.Convert-btn{
+    width: 85px;
+    height: 30px;
+    margin-left:35px;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius:3px;
+    color: whitesmoke;
+}
+.Reset-btn{
+    width: 85px;
+    height: 30px;
+    margin-left:30px;
+    background: rgba(128, 128, 128, 0.511);
+    border-radius:4px;
+    color: whitesmoke;
+}
+.Output{
+    border: 1px solid black;
+    margin-top:20px;
+    width: 400px;
+    margin-left: 30px;
+    height:100px;
+    background-color: #e9ecef;
+}
+#Output-Show{
+       font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+#output-text{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-left: 30px;
+}
+.Conversion-btn{
+    margin-top: 40px;
+}
+.Conversion-btn button:nth-child(1){
+    width:80px;
+    transition: opacity 1s ,background-color 1s;
+    box-shadow: 1px 0.5px 3px black;
+    height: 40px;
+    background: #e9ecef;
+    color: black;
+    margin-left: 25px;
+    border-radius: 3px;
+    border:1px solid black;
+    /* margin-top: 10px; */
+}
+.Conversion-btn button:nth-child(1):hover{
+    opacity:0.9;
+    background-color: #a2c8ee;
+    
+    /* background-color: #28a745; */
+
+}
+.Image-logo{
+    width: 40px;
+    position: absolute;
+    top:0px;
+    left:460px;
+    /* border-right:0px solid black 20px */
+}
+.Conversion-btn button:nth-child(2){
+    width:80px;
+    height: 40px;
+    background: #e9ecef;
+    color: black;
+    transition: opacity 1s ,background-color 1s;
+    box-shadow: 1px 0.5px 3px black;
+    margin-left: 25px;
+    border:1px solid black;
+    border-radius: 3px;
+}
+.Conversion-btn button:nth-child(2):hover{
+    transition: opacity 1s ,background-color 1s;
+    box-shadow: 1px 0.5px 3px black;
+    opacity:0.9;
+    background: #a2c8ee;
+
+}
+.Conversion-btn button:nth-child(3){
+    width:80px;
+    height: 40px;
+    background: #e9ecef;
+    color: black;
+    margin-left: 25px;
+    border:1px solid black;
+    transition: opacity 1s ,background-color 1s;
+    box-shadow: 1px 0.5px 3px black;
+    border-radius: 3px;
+}
+.Conversion-btn button:nth-child(3):hover{
+    transition: opacity 1s ,background-color 1s;
+    box-shadow: 1px 0.5px 3px black;
+    opacity:0.9;
+    background: #a2c8ee;
+
+}

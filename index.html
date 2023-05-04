@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Favicon/favicon.ico">
+    <title>BCD Number Convertor</title>
+</head>
+<body>
+    <div class="Text">
+        <h1 id="Inner-Text">Decimal to Binary Convertor</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="main class">
+            <!-- From  Decimal To Text -->
+            <div class="texting">
+            <div class="converssion">
+                <h1 class="From-Text">From</h1>
+                <h1 class="Decimal-Text">Decimal</h1>
+                <img class="Image-logo" src="https://www.rapidtables.com/lib/favicon/apple-touch-icon.png">
+
+            </div>
+
+            <div class="conversion2">
+                <h1 class="To-Text">To</h1>
+                <h1 class="Binary-Text" id="binary">Binary  </h1>
+            </div>
+        </div>
+ <!-- From  Decimal To Text -->
+                <!-- Input Taking -->
+                <div class="input">
+                    <h1 class="Input-Text" t>Enter a  Decimal Number</h1>
+                <input type="text" onclick ="input();" id="Input-value" >
+                <h1 class="Number-box">10</h1>
+                  <!-- Input Taking -->           
+        </div>
+        <!-- Buttons for Convert and Reset -->
+        <div class="buttons">
+            <button class="Convert-btn" style="display: none;"> = Convert</button>
+            <button class="Reset-btn" onclick="Reset()"> X Reset</button>
+                <!-- Buttons for Convert and Reset -->
+        </div>
+     <!-- Output Text -->
+            <div class="Output-present">
+                <h1 id="output-text"> Binary number</h1>
+                <!-- Output Text -->
+            </div>
+        <!-- Output Form -->
+        
+        <div class="Output">
+            <h1 id="Output-Show">0000</h1>
+        </div>
+           <!-- Buttons for converstion -->
+           <div class="Conversion-btn">
+           <button class="Binary-btn" onclick="Conversion(2,'Binary')"> Binary</button>
+            <button class="Octal-btn" onclick="Conversion(8,'Octal')">Octal</button>
+            <button class="Hex-btn" onclick="Conversion(16,'Hex')">Hex</button>
+ <!--Buttons for conversion -->
+        </div>
+    </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
